@@ -51,10 +51,17 @@ This is beyond the scope of this guide.
 
 My project website/blog you can find at (https://archbang.org)
 
+## Notes for Ywallet
 
+- Build an pacman package for ywallet using PKGBUILD from misc/
+- Add it to the custom repo
+- Build the iso
 
-
-
+```
+makepkg
+repo-add
+./build -v .
+```
 
 
 
